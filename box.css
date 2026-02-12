@@ -1,0 +1,23 @@
+/* universal selector */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color:maroon;
+    float: left;
+    padding: 6px 4px 5px;
+    margin: 15px;
+
+}
+.b1{
+    height: 250px;
+    width: 250px;
+
+}
