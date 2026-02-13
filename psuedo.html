@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psuedo</title>
+</head>
+<style>
+    #btn1{
+        background-color: red;
+        color: antiquewhite;
+    }
+    #btn1:hover{
+        background-color: black;
+        color: yellow;
+        border-radius: 50%;
+    }
+    #username:focus{
+        background-color: brown;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:visited{
+        color: cadetblue;
+    }
+    input[type="radio"]:checked{
+        outline: 1px solid green;
+    }
+    #txt{
+        color: brown;
+        display: none;
+    }
+    .main:hover #txt{
+        display: block;
+    }
+</style>
+<body>
+    <!-- psuedo classes == hover :: focus :: visted :: checked
+Elements == :: before :: after :: first-letter :: first-line -->
+
+    <input type="text" name="username" id="username">
+    
+     <div class="main">
+        <span id="txt">😍😍</span>
+        <button id="btn1">ADD</button>
+     </div>
+    <br><br>
+    <a href="#">Home</a>
+    <a href="#">Login</a>
+    <a href="#">logout</a>
+    <br><br>
+    <input type="radio" name="g1" id="g1">Male
+    <input type="radio" name="g2" id="g2">Female
+</body>
+</html>
